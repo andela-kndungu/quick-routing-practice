@@ -11,7 +11,7 @@ const Home = props => (
           I'll be loaded on every page
         </h1>
         <Link to="/routing">Routing</Link>
-        <Link to="/hello">Hello</Link>
+        <Link to="/params/place/holder">Params</Link>
       </div>
       { props.children }
     </div>
