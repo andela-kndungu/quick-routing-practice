@@ -1,8 +1,13 @@
 import React from 'react';
+import Button from '../containers/Button.jsx';
 
-const Hello = () => (
-  <h1>Hello world</h1>
-);
+const Hello = (props) => {
+  return <div><Button /><h1>{props.time}</h1></div>;
+};
+
+Hello.propTypes = {
+  time: React.PropTypes.string
+};
 
 export default Hello;
 
